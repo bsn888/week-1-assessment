@@ -45,7 +45,6 @@ Developer: Brian Nace
 
 #container {
 
-	color: rgb (80, 119, 155);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -53,13 +52,28 @@ Developer: Brian Nace
   width: 100%;
 }
 
-body {
-	
-
-}
 /*******************************************
 /* ADDITIONAL STYLES                       
 /*******************************************/
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+body { background: rgba(242,244,245,1); }
+body:after {
+    content:"";
+    background: rgba(65,100,138,1);
+    position:fixed;
+    top:0;
+    bottom:60%;
+    right:0;
+    left:0;
+    content:" ";
+    z-index:-1;
+}
+
 nav {
   background-color: transparent;
 
@@ -74,13 +88,14 @@ ul {
 li {
   display: inline;
   float: left;
+  font-family: Core Sans A;
+  color: rgba(110,140,170,1);
 
 }
 
 a {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
 }
 
 h1 {
@@ -97,11 +112,17 @@ p {
 
 footer {
 
+  margin-top: 150px;
+  display: inline-block;
+  float: none;
+
 }
 
 #textOverImage { 
    position: relative; 
-   width: 100%; 
+   width: 100%;
+   float-right: 100px; 
+   padding-left: 300px;
 }
 
 

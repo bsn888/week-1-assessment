@@ -1,0 +1,103 @@
+/*
+Project Name: Week Assessment - Instagram
+Client: GA
+Author: Brian Nace
+Developer: Brian Nace
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+
+/* Box Model Hack */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Clear fix hack */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/* Center the container */
+
+
+#container {
+	background-color: rgb (80, 119, 155);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+}
+
+}
+
+body {
+	
+
+}
+/*******************************************
+/* ADDITIONAL STYLES                       
+/*******************************************/
+nav {
+
+}
+
+footer {
+
+}
+
+#textOverImage { 
+   position: relative; 
+   width: 100%; 
+}
+
+h1 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+p {
+  position: absolute;
+
+}
+
+#phoneImage {
+
+}
+
+.logInButton {
+
+}
+
+.nav-wrapper {
+
+}
+/*******************************************
+/* LANDING PAGE                      
+/*******************************************/
+

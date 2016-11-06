@@ -145,7 +145,8 @@ footer {
 .textOverImage a { 
   display: block;
   width: 50%;
-  text-align: left;    
+  text-align: left;   
+  float: right; 
 }
 
 
@@ -156,6 +157,7 @@ footer {
   padding-left: 100px;
   padding-top: 100px;
   background-attachment: inherit;
+  float: left;
 
 }
 

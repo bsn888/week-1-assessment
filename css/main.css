@@ -48,7 +48,7 @@ Developer: Brian Nace
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  height: 100px;
+  height: 100%;
   width: 100%;
 }
 
@@ -74,6 +74,18 @@ body:after {
     z-index:-1;
 }
 
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 50%;
+}
+
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 50%;
+  padding-bottom: 500px;
+}
 nav {
   background-color: transparent;
 
@@ -88,7 +100,8 @@ ul {
 li {
   display: inline;
   float: left;
-  font-family: Core Sans A;
+  font-family: Source Sans Pro;
+  font-size: 10px;
   color: rgba(110,140,170,1);
 
 }
@@ -99,35 +112,48 @@ a {
 }
 
 h1 {
-  font-family: Core Sans A Rounded;
+  font-family: Open Sans;
   font-size: 18px;
   font-color: rgb(39,67,98);
+  margin-left: 30px;
+  margin-right: 30px;
+
 }
 
 p {
-  font-family: Core Sans A;
+  font-family: Open Sans;
   font-size: 12px;
   font-color: rgb(141,141,141);
+  margin-left: 30px;
+  margin-right: 200px;
 }
 
 footer {
-
-  margin-top: 150px;
-  display: inline-block;
-  float: none;
+  position: fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  margin:-150px auto 0;
+  text-align: center;
 
 }
 
 #textOverImage { 
    position: relative; 
    width: 100%;
-   float-right: 100px; 
-   padding-left: 300px;
-}
+   padding-left: 100px;
+   padding-top: 100px:;
+   opacity: 1;
+   filter: alpha(opacity=100);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background: rgba(242,244,245);
+
+ }
 
 
 #phoneImage {
-  float: left;
   padding-left: 100px;
   padding-top: 100px;
 
@@ -137,10 +163,15 @@ footer {
 
 }
 
-.nav-wrapper {
+.nav-wrapper ul li a {
   background-color: transparent;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-color: rgba(110,140,170,1);
 
 }
+
+
 /*******************************************
 /* LANDING PAGE                      
 /*******************************************/

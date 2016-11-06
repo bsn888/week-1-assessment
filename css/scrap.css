@@ -1,0 +1,54 @@
+h1 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+p {
+
+}
+
+.copyright {
+
+font-family: Core Sans A;
+margin: 0px;
+font-color: rgba();
+}
+
+margin-top: 150px;
+  display: inline-block;
+  float: none;
+
+  float: right;
+  margin: 0 1.5%;
+  width: 50%;
+  padding-bottom: 500px;
+
+  #textOverImage { 
+   position: relative; 
+   width: 100%;
+   padding-left: 100px;
+   padding-top: 100px:;
+   opacity: 1;
+   filter: alpha(opacity=100);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background: rgba(242,244,245);
+   background-attachment: inherit;
+
+ }
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 50%;
+  background-attachment: inherit;
+}
+
+aside {
+  padding-top: 500px;
+  width: 50%;
+  background-attachment: inherit;
+
+ 

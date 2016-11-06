@@ -20,13 +20,14 @@ Developer: Brian Nace
 
 /* Clear fix hack */
 
-/*.clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
 
 /******************************************
 /* BASE STYLES
@@ -75,20 +76,13 @@ body:after {
     background-attachment: fixed;
 }
 
-section {
-  float: left;
-  margin: 0 1.5%;
-  width: 50%;
-  background-attachment: inherit;
+section, aside {
+  display:inline-block;
+  vertical-align: top;
+  border: none;
+  word-wrap: break-word;
 }
 
-aside {
-  padding-top: 500px;
-  width: 50%;
-  background-attachment: inherit;
-
-
-}
 nav {
   background-color: transparent;
 
@@ -148,8 +142,12 @@ footer {
 
 }
 
-#textOverImage { 
-  
+.textOverImage a { 
+  display: block;
+  width: 50%;
+  text-align: left;    
+}
+
 
  }
 

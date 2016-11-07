@@ -59,6 +59,7 @@ html, body {
     margin:0;
     padding:0;
 }
+/* this sets the two tone background*/
 
 body { background: rgba(242,244,245,1); }
 body:after {
@@ -73,31 +74,7 @@ body:after {
     z-index:-1;
 }
 
-nav {
-  background-color: transparent;
-  margin:0 auto;
-
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-  display: inline;
-  float: left;
-  font-family: Core Sans A;
-  font-size: 12px;
-  color: rgba(110,140,170,1);
-
-}
-
-a {
-    display: block;
-    padding: 8px;
-}
+/*The header insdie the floating frame image*/
 
 h1 {
   font-family: Source Sans Pro;
@@ -108,7 +85,7 @@ h1 {
   margin-right: 200px;
   
 }
-
+/*The paragraph inside the floating frame image */
 p {
   font-family: Open Sans;
   font-size: 13px;
@@ -117,16 +94,40 @@ p {
   margin-right: 90px;
   
 }
-
-.copyright {
+/*element tag to make the bold text in the paragraph, but it doesn't work yet, I've also tried it with both element tags and a class too*/ 
+b {
   font-family: Open Sans;
-  color: rgb(141,141,141);
-  font-size: 10px;
-  display: block;
-  padding: 8px;
+  color: rgb(0,0,0);
+  font-weight: 800;
+}
+/* the nav bar*/
+nav {
+  background-color: transparent;
+  margin:0 auto;
 
 }
+/*nav bar item organization*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
+/*nav bar items*/
+li {
+  display: inline;
+  float: left;
+  font-family: Core Sans A;
+  font-size: 12px;
+  color: rgba(110,140,170,1);
+
+}
+/*nav bar item placement*/
+a {
+    display: block;
+    padding: 8px;
+}
+/*overall footer with the nav bar*/
 footer {
 
   position: absolute;
@@ -139,14 +140,23 @@ footer {
 
 
 }
+/*the class for the copyright material that's visually different than the navbar items*/
+.copyright {
+  font-family: Open Sans;
+  color: rgb(141,141,141);
+  font-size: 10px;
+  display: block;
+  padding: 8px;
 
+}
+/*the id for the gradient image behind the description text*/
 #frameBox { 
    position: absolute; 
    width: 480px;
    top: 175px;
    left: 480px;
 }   
-
+/*the class for the description text*/
 .frameText {
 
 position: absolute; 
@@ -155,46 +165,48 @@ top: 200px;
 left: 480px
 
 }
-
+/*the id for the iphone and droid images*/
 #phoneImage {
   float: left;
   padding-left: 100px;
   padding-top: 100px;
 
 }
-
+/*the class for the div holding the Instagram and Login images together*/
 .topImages {
   width: 480px;
   position: absolute;
   top: 80px;
   left: 480px;
 }
-
+/*the class for the instagram camera image*/
 .instagram {
 float: left;
 
 }
 
+/*the class for the login button image*/
 .logInButton {
   float: right;
   margin-top: 25px;
 
 }
-
+/*the class for the div holding the apples store and google play link image buttons*/
 .mobileLinks {
   position: absolute;
   left: 525px;
   top: 500px;
 }
-
+/*the class for the applestore image*/
 .appleStore {
  margin: 0 10px 0 0;
 }
-
+/*the class for the google play image*/
 .googlePlay {
-  
+  margin-left: 30px;
 }
 
+/*the id for the overall div holding the nav items*/
 .nav-wrapper ul li a {
   background-color: transparent;
   text-decoration: none;
@@ -203,7 +215,6 @@ float: left;
   text-align: center;
   margin: 0 auto;
   
-
 }
 /*******************************************
 /* LANDING PAGE                      
